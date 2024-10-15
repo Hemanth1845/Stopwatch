@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(240, 236, 236, 0.819);
+}
+#mystopwatch {
+    text-align: center;
+    font-size: 40px;
+}
+.main {
+    background-color: white;
+    border: 3px solid black;
+    padding: 40px;
+    margin-left: 520px;
+    height: 150px;
+    width: 380px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+}
+#stopwatch {
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+button {
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 40px;
+}
+#start {
+    background-color: rgb(67, 241, 67);
+}
+#stop {
+    background-color: red;
+}
+#reset {
+    background-color: rgb(0, 255, 247);
+}
